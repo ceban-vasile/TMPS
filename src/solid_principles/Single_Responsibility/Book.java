@@ -5,16 +5,14 @@ public class Book {
     String title;
     String author;
     String publisher;
-    protected String text;
     int pages;
 
     public Book(){}
 
-    public Book(String title, String author, String publisher, String text, int pages) {
+    public Book(String title, String author, String publisher, int pages) {
         this.title = title;
         this.author = author;
         this.publisher = publisher;
-        this.text = text;
         this.pages = pages;
     }
     public String getTitle() {
@@ -35,9 +33,6 @@ public class Book {
     public void setPublisher(String publisher) {
         this.publisher = publisher;
     }
-    public String getText() {
-        return text;
-    }
     public int getPages() {
         return pages;
     }
@@ -51,6 +46,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Name: "+getTitle()+"\nAuthor: "+getAuthor()+"\nPublisher: "+getPublisher()+"\nDescribe: "+getText()+"\nPages: "+getPages();
+        return "Name: "+getTitle()+"\nAuthor: "+getAuthor()+"\nPublisher: "+getPublisher()+"\nPages: "+getPages();
     }
 }
