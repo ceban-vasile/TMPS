@@ -1,4 +1,4 @@
-package creational_patterns;
+package Lab_1;
 
 public class BookFactory {
     public static Book createBook(String type, String title, String author, double price) {

@@ -1,4 +1,4 @@
-package creational_patterns;
+package Lab_1;
 
 import java.util.ArrayList;
 import java.util.List;

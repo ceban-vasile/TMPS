@@ -1,4 +1,4 @@
-package creational_patterns;
+package Lab_1;
 
 public abstract class Book {
     protected String title;

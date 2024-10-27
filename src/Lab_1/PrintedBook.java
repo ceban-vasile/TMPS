@@ -1,4 +1,4 @@
-package creational_patterns;
+package Lab_1;
 
 public class PrintedBook extends Book {
     public PrintedBook(String title, String author, double price) {
