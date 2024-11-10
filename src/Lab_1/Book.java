@@ -1,6 +1,6 @@
 package Lab_1;
 
-import Lab_2.CompositePattern.BookComponent;
+import Lab_2.models.CompositePattern.BookComponent;
 
 public abstract class Book implements BookComponent {
     public String title;

@@ -1,4 +1,4 @@
-package Lab_2.CompositePattern;
+package Lab_2.models.CompositePattern;
 
 import java.util.ArrayList;
 import java.util.List;

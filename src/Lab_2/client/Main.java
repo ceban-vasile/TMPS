@@ -1,16 +1,16 @@
-package Lab_2;
+package Lab_2.client;
 
 import Lab_1.Book;
 import Lab_1.BookCatalog;
 import Lab_1.BookFactory;
 import Lab_1.Order;
-import Lab_2.AdapterPattern.ExternalBook;
-import Lab_2.AdapterPattern.ExternalBookAdapter;
-import Lab_2.AdapterPattern.ExternalBookLoader;
-import Lab_2.CompositePattern.BookCollection;
-import Lab_2.DecoratorPattern.SignedBookDecorator;
-import Lab_2.FacadePattern.LibraryFacade;
-import Lab_2.FlyweightPattern.FlyweightBookFactory;
+import Lab_2.models.AdapterPattern.ExternalBook;
+import Lab_2.models.AdapterPattern.ExternalBookAdapter;
+import Lab_2.data.ExternalBookLoader;
+import Lab_2.models.CompositePattern.BookCollection;
+import Lab_2.models.DecoratorPattern.SignedBookDecorator;
+import Lab_2.models.FacadePattern.LibraryFacade;
+import Lab_2.models.FlyweightPattern.FlyweightBookFactory;
 
 import java.io.IOException;
 
@@ -33,7 +33,7 @@ public class Main {
 
         order.displayOrder();
 
-        System.out.println("1. Facade Pattern");
+        System.out.println("\n1. Facade Pattern");
         LibraryFacade libraryFacade = new LibraryFacade();
         libraryFacade.placeOrder("1984", "Alice", "123 Book Street", true, 2.0);
 

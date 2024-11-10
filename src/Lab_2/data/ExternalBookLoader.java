@@ -1,5 +1,6 @@
-package Lab_2.AdapterPattern;
+package Lab_2.data;
 
+import Lab_2.models.AdapterPattern.ExternalBook;
 import com.google.gson.Gson;
 
 import java.io.FileReader;

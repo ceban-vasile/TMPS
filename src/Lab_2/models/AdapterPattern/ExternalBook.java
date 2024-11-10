@@ -1,4 +1,4 @@
-package Lab_2.AdapterPattern;
+package Lab_2.models.AdapterPattern;
 
 public class ExternalBook {
     private String title;

@@ -1,4 +1,4 @@
-package Lab_2.DecoratorPattern;
+package Lab_2.models.DecoratorPattern;
 
 import Lab_1.Book;
 

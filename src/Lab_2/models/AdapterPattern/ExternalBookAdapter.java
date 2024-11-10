@@ -1,4 +1,4 @@
-package Lab_2.AdapterPattern;
+package Lab_2.models.AdapterPattern;
 
 import Lab_1.Book;
 

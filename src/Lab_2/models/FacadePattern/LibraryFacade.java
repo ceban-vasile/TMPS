@@ -1,4 +1,4 @@
-package Lab_2.FacadePattern;
+package Lab_2.models.FacadePattern;
 
 import Lab_1.Book;
 import Lab_1.BookCatalog;
