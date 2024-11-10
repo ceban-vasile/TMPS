@@ -27,4 +27,13 @@ public class BookCatalog {
             book.displayInfo();
         }
     }
+
+    public Book findBookByTitle(String title) {
+        for (Book book : books) {
+            if (book.title.equalsIgnoreCase(title)) {
+                return book;
+            }
+        }
+        return null;
+    }
 }
