@@ -34,12 +34,8 @@ In software development, there are instances where objects need to be combined o
 
 The project is organized into the following packages to maintain clarity and modularity:
 - **client**: Contains the main application that interacts with other components.
-- **domain**: Holds the core domain entities such as `Book` and `Order`.
-- **factories**: Contains factory classes used to create instances of domain objects.
-- **builder**: Holds builder classes for constructing complex objects.
-- **models**: Represents structural design pattern implementations like `Composite` and `Adapter`.
-- **utilities**: Utility classes to support various functionalities.
-- **data**: Contains files or classes that manage data persistence and retrieval.
+- **models**: Represents structural design pattern implementations.
+- **data**: Contains class that manage data persistence and retrieval.
 
 ### Design Patterns Implemented
 
