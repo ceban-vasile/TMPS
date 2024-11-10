@@ -1,9 +1,11 @@
 package Lab_1;
 
-public abstract class Book {
-    protected String title;
-    protected String author;
-    protected double price;
+import Lab_2.CompositePattern.BookComponent;
+
+public abstract class Book implements BookComponent {
+    public String title;
+    public String author;
+    public double price;
 
     public Book(String title, String author, double price) {
         this.title = title;
@@ -11,5 +13,6 @@ public abstract class Book {
         this.price = price;
     }
 
+    @Override
     public abstract void displayInfo();
 }
