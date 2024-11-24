@@ -1,7 +1,10 @@
-package Lab_3;
+package Lab_3.Client;
 
 import Lab_1.Book;
 import Lab_1.BookFactory;
+import Lab_3.models.BookCatalog;
+import Lab_3.models.Observer;
+import Lab_3.models.User;
 
 public class Main {
 
