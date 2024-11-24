@@ -1,4 +1,4 @@
-package Lab_3;
+package Lab_3.models;
 
 import Lab_1.Book;
 
