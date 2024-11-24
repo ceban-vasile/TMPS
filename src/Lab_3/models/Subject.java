@@ -1,4 +1,4 @@
-package Lab_3;
+package Lab_3.models;
 
 public interface Subject {
     void registerObserver(Observer observer);
