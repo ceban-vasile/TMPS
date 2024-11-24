@@ -13,6 +13,10 @@ public abstract class Book implements BookComponent {
         this.price = price;
     }
 
+    public String getTitle(){
+        return title;
+    }
+
     @Override
     public abstract void displayInfo();
 }
