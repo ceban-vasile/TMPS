@@ -1,4 +1,4 @@
-package Lab_3;
+package Lab_3.models;
 
 public class User implements Observer {
     private String name;
